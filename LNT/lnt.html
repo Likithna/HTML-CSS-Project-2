@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Adoption Center</title>
+<link rel="stylesheet" href="lntcss.css">
+</head>
+<body>
+<header>
+<h1>Pet Adoption Center</h1>
+<nav>
+<a href="#pets">Available Pets</a>
+<a href="#process">Adoption Process</a>
+<a href="#stories">Success Stories</a>
+<a href="#volunteer">Volunteer Form</a>
+</nav>
+</header>
+
+<section id="pets">
+<h2>Available Pets</h2>
+<div class="grid">
+
+<!-- Dogs -->
+<div class="card">
+<a href="#buddyModal"><img src="https://placedog.net/400/300?id=1" alt="Buddy"></a>
+<h3>Buddy</h3>
+<p>Age: 3 years</p>
+<span class="tag">Playful</span>
+</div>
+<div class="card">
+<a href="#maxModal"><img src="https://placedog.net/400/300?id=2" alt="Max"></a>
+<h3>Max</h3>
+<p>Age: 2 years</p>
+<span class="tag">Energetic</span>
+</div>
+<div class="card">
+<a href="#lunaModal"><img src="https://placekitten.com/400/300" alt="Luna"></a>
+<h3>Luna</h3>
+<p>Age: 4 years</p>
+<span class="tag">Calm</span>
+</div>
+<div class="card">
+<a href="#miloModal"><img src="https://placekitten.com/401/300" alt="Milo"></a>
+<h3>Milo</h3>
+<p>Age: 1 year</p>
+<span class="tag">Curious</span>
+</div>
+
+<!-- 10 Cats -->
+<div class="card">
+<a href="#cat1Modal"><img src="https://placekitten.com/402/300" alt="Whiskers"></a>
+<h3>Whiskers</h3>
+<p>Age: 2 years</p>
+<span class="tag">Gentle</span>
+</div>
+<div class="card">
+<a href="#cat2Modal"><img src="https://placekitten.com/403/300" alt="Snowball"></a>
+<h3>Snowball</h3>
+<p>Age: 3 years</p>
+<span class="tag">Affectionate</span>
+</div>
+<div class="card">
+<a href="#cat3Modal"><img src="https://placekitten.com/404/300" alt="Shadow"></a>
+<h3>Shadow</h3>
+<p>Age: 5 years</p>
+<span class="tag">Quiet</span>
+</div>
+<div class="card">
+<a href="#cat4Modal"><img src="https://placekitten.com/405/300" alt="Ginger"></a>
+<h3>Ginger</h3>
+<p>Age: 1 year</p>
+<span class="tag">Playful</span>
+</div>
+<div class="card">
+<a href="#cat5Modal"><img src="https://placekitten.com/406/300" alt="Cleo"></a>
+<h3>Cleo</h3>
+<p>Age: 4 years</p>
+<span class="tag">Loyal</span>
+</div>
+<div class="card">
+<a href="#cat6Modal"><img src="https://placekitten.com/407/300" alt="Oreo"></a>
+<h3>Oreo</h3>
+<p>Age: 2 years</p>
+<span class="tag">Curious</span>
+</div>
+<div class="card">
+<a href="#cat7Modal"><img src="https://placekitten.com/408/300" alt="Misty"></a>
+<h3>Misty</h3>
+<p>Age: 6 years</p>
+<span class="tag">Calm</span>
+</div>
+<div class="card">
+<a href="#cat8Modal"><img src="https://placekitten.com/409/300" alt="Pumpkin"></a>
+<h3>Pumpkin</h3>
+<p>Age: 3 years</p>
+<span class="tag">Friendly</span>
+</div>
+<div class="card">
+<a href="#cat9Modal"><img src="https://placekitten.com/410/300" alt="Lily"></a>
+<h3>Lily</h3>
+<p>Age: 2 years</p>
+<span class="tag">Gentle</span>
+</div>
+<div class="card">
+<a href="#cat10Modal"><img src="https://placekitten.com/411/300" alt="Bella"></a>
+<h3>Bella</h3>
+<p>Age: 1 year</p>
+<span class="tag">Adventurous</span>
+</div>
+
+</div>
+</section>
+
+<section id="process">
+<h2>Adoption Process</h2>
+
+<ol>
+<div class="story-box"><li>  Browse available pets and choose your match.</li></div>
+<div class="story-box"><li>  Fill out the adoption application form.</li></div>
+<div class="story-box"><li>  Schedule a meet-and-greet.</li></div>
+<div class="story-box"><li>  Complete adoption paperwork and take your new friend home.</li></div>
+</ol>
+</section>
+
+<section id="stories">
+<h2>Success Stories</h2>
+<div class="story-box">
+<p>Buddy found a forever home with the Smith family who love taking him to the beach.</p>
+</div>
+<div class="story-box">
+<p>Luna now enjoys sunny naps in her new home with her best friend, a golden retriever named Charlie.</p>
+</div>
+<div class="story-box">
+<p>Bella, a shy tabby, was rescued from the streets. Now she spends her days sunbathing in the Smiths’ living room and has become their little shadow.</p>
+</div>
+<div class="story-box">
+<p>Max, a senior Labrador, found his forever home with Daniel, a retired teacher. They now take slow morning walks and enjoy the peace of companionship.</p>
+</div>
+<div class="story-box">
+<p>Luna, a timid black kitten, blossomed into a playful sweetheart after moving in with Priya, who says Luna’s purrs have brought her peace during stressful days.</p>
+</div>
+</section>
+
+<section id="volunteer">
+<h2>Volunteer Form</h2>
+<form>
+<input type="text" placeholder="Full Name" required>
+<input type="email" placeholder="Email" required>
+<textarea placeholder="Why do you want to volunteer?" required></textarea>
+<button type="submit">Submit</button>
+</form>
+</section>
+
+<!-- Modals -->
+<div id="buddyModal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="https://placedog.net/400/300?id=1"><h2>Buddy</h2><table><tr><th>Age</th><td>3 years</td></tr><tr><th>Breed</th><td>Golden Retriever</td></tr><tr><th>Temperament</th><td>Playful & Friendly</td></tr><tr><th>Special Needs</th><td>None</td></tr></table></div></div>
+
+<div id="maxModal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="https://placedog.net/400/300?id=2"><h2>Max</h2><table><tr><th>Age</th><td>2 years</td></tr><tr><th>Breed</th><td>Labrador</td></tr><tr><th>Temperament</th><td>Energetic & Loyal</td></tr><tr><th>Special Needs</th><td>Needs daily exercise</td></tr></table></div></div>
+
+<div id="lunaModal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="https://placekitten.com/400/300"><h2>Luna</h2><table><tr><th>Age</th><td>4 years</td></tr><tr><th>Breed</th><td>Siamese</td></tr><tr><th>Temperament</th><td>Calm & Affectionate</td></tr><tr><th>Special Needs</th><td>Indoor only</td></tr></table></div></div>
+
+<div id="miloModal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="https://placekitten.com/401/300"><h2>Milo</h2><table><tr><th>Age</th><td>1 year</td></tr><tr><th>Breed</th><td>Tabby</td></tr><tr><th>Temperament</th><td>Curious & Playful</td></tr><tr><th>Special Needs</th><td>None</td></tr></table></div></div>
+
+<!-- Cat modals -->
+<div id="cat1Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat1.jpg"><h2>Whiskers</h2><table><tr><th>Age</th><td>2 years</td></tr><tr><th>Breed</th><td>Maine Coon</td></tr><tr><th>Temperament</th><td>Gentle</td></tr><tr><th>Special Needs</th><td>Grooming</td></tr></table></div></div>
+
+<div id="cat2Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat2.webp"><h2>Snowball</h2><table><tr><th>Age</th><td>3 years</td></tr><tr><th>Breed</th><td>Persian</td></tr><tr><th>Temperament</th><td>Affectionate</td></tr><tr><th>Special Needs</th><td>Indoor only</td></tr></table></div></div>
+
+<div id="cat3Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat3.jpg"><h2>Shadow</h2><table><tr><th>Age</th><td>5 years</td></tr><tr><th>Breed</th><td>British Shorthair</td></tr><tr><th>Temperament</th><td>Quiet</td></tr><tr><th>Special Needs</th><td>Low activity</td></tr></table></div></div>
+
+<div id="cat4Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat4.webp"><h2>Ginger</h2><table><tr><th>Age</th><td>1 year</td></tr><tr><th>Breed</th><td>Orange Tabby</td></tr><tr><th>Temperament</th><td>Playful</td></tr><tr><th>Special Needs</th><td>None</td></tr></table></div></div>
+
+<div id="cat5Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat5.webp"><h2>Cleo</h2><table><tr><th>Age</th><td>4 years</td></tr><tr><th>Breed</th><td>Russian Blue</td></tr><tr><th>Temperament</th><td>Loyal</td></tr><tr><th>Special Needs</th><td>Quiet environment</td></tr></table></div></div>
+
+<div id="cat6Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat6.jpg"><h2>Oreo</h2><table><tr><th>Age</th><td>2 years</td></tr><tr><th>Breed</th><td>Tuxedo</td></tr><tr><th>Temperament</th><td>Curious</td></tr><tr><th>Special Needs</th><td>None</td></tr></table></div></div>
+
+<div id="cat7Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat7.jpeg"><h2>Misty</h2><table><tr><th>Age</th><td>6 years</td></tr><tr><th>Breed</th><td>Himalayan</td></tr><tr><th>Temperament</th><td>Calm</td></tr><tr><th>Special Needs</th><td>Indoor only</td></tr></table></div></div>
+
+<div id="cat8Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat8.jpg"><h2>Pumpkin</h2><table><tr><th>Age</th><td>3 years</td></tr><tr><th>Breed</th><td>Calico</td></tr><tr><th>Temperament</th><td>Friendly</td></tr><tr><th>Special Needs</th><td>None</td></tr></table></div></div>
+
+<div id="cat9Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat9.webp"><h2>Lily</h2><table><tr><th>Age</th><td>2 years</td></tr><tr><th>Breed</th><td>Ragdoll</td></tr><tr><th>Temperament</th><td>Gentle</td></tr><tr><th>Special Needs</th><td>Grooming</td></tr></table></div></div>
+
+<div id="cat10Modal" class="modal"><div class="modal-content"><a href="#" class="close">&times;</a><img src="cat10.jpg"><h2>Bella</h2><table><tr><th>Age</th><td>1 year</td></tr><tr><th>Breed</th><td>Siberian</td></tr><tr><th>Temperament</th><td>Adventurous</td></tr><tr><th>Special Needs</th><td>Active household</td></tr></table></div></div>
+<h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Application Form</h2>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="download-btn" href="pet-adoption-application.pdf" download>Download Application Form</a>
+</body>
+</html>
